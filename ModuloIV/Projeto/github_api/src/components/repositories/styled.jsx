@@ -5,6 +5,7 @@ export const WrapperTabs = styled( Tabs)`
   font-size: 16px;
   width 100%;
   margin-top: 16px;
+  font-weight: 700; 
 `;
 
 export const WrapperTabList = styled(TabList)`
@@ -17,13 +18,13 @@ export const WrapperTabList = styled(TabList)`
 WrapperTabList.tabsRole = "TabList";
 
 export const WrapperTab = styled(Tab)`
-  border-radius: 16px;
+  border-radius: 10px;
   borde: 1px solid #ccc;
   padding: 16px;
   user-select: none;
   cursor: pointer;
   z-index: 99999;
-  background-color: "#fff";
+  background-color: #fff;
   margin: 8px;
 
   &:focus {
@@ -43,7 +44,7 @@ export const WrapperTabPanel = styled(TabPanel)`
   borde: 1px solid #ccc;
   display: none;
   margin-top: -5px;
-
+  
   &.is-selected {
     display: block;
   }
@@ -55,4 +56,6 @@ export const WrapperList = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  background-color: #afeeee;
+  border-radius: 8px;
 `;

@@ -38,13 +38,6 @@ export const WrapperStatusCount = styled.div`
   }
 `;
 
-export const WrapperUsername = styled.div`
-  display: flex;
-  align-items: center;
-  h3 {
-    margin: 8px;
-  };
-`;
 
 export const WrapperUserGeneric = styled.div`
   display: flex;
