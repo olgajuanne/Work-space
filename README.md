@@ -5,6 +5,9 @@ Desafio de Projeto Modulo ReackJS - `Bootcamp` - TQI Fullstack Developer
 ## Technologies
 
 - ReackJS
+- JavaScript
+- HTML
+- CSS
 
 ## Project
 
